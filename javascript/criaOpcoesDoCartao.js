@@ -14,6 +14,9 @@ var criaOpcoesDoCartao = (function () {
   });
   */
   }
+
+
+  
   var ehPraEditar = false;
   function toggleEdicao() {
     var cartao = $("#cartao_" + this.dataset.ref);
